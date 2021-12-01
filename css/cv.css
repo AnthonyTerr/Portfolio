@@ -101,6 +101,10 @@ body{
  -moz-filter: grayscale(0); -ms-filter: grayscale(0);
  -o-filter: grayscale(0); }
 
+#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
+#langues .langue, #langues .niveau{ font-size: 1.3em; }
+#langues .langue { padding-top: 3px; }
+
 /* Pour empêcher la déformation du parcours scolaire selon la STA */
 @media (min-width: 500px) { #parcours .date { width: 20%; }
  #parcours .details { width: 80%; }
